@@ -39,6 +39,25 @@ Current scope:
 ```text
 src/app/code/Unopuntozero/AmastyHomeHreflangFix
 
+Installation
+
+Copy the module into:
+
+app/code/Unopuntozero/AmastyHomeHreflangFix
+
+Then run:
+
+php bin/magento module:enable Unopuntozero_AmastyHomeHreflangFix
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+php bin/magento c:c
+php bin/magento c:f
+
+If full page cache is enabled, purge:
+
+Magento full page cache
+Varnish
+Cloudflare
 Notes
 
 This repository currently focuses on the homepage hreflang issue.
