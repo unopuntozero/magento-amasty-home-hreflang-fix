@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Amasty\XmlsitemapHtmlHreflang\Model\AddHreflangToPageConfig">
+        <plugin name="unopuntozero_amasty_home_hreflang_fix"
+                type="Unopuntozero\AmastyHomeHreflangFix\Plugin\Amasty\XmlsitemapHtmlHreflang\Model\AddHreflangToPageConfigPlugin"
+                sortOrder="10"/>
+    </type>
+
+</config>
