@@ -1,0 +1,17 @@
+{
+  "name": "unopuntozero/magento-amasty-home-hreflang-fix",
+  "description": "Production-safe Magento 2 fix for Amasty HTML hreflang on multilingual homepages",
+  "type": "magento2-module",
+  "license": [
+    "proprietary"
+  ],
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "src/app/code/Unopuntozero/AmastyHomeHreflangFix/registration.php"
+    ],
+    "psr-4": {
+      "Unopuntozero\\AmastyHomeHreflangFix\\": "src/app/code/Unopuntozero/AmastyHomeHreflangFix/"
+    }
+  }
+}
